@@ -87,7 +87,7 @@ function Content(props) {
           </button>
         </div>
         <div >
-          <p className="Disclaimer">Disclaimer:This Bot only operates based on the provided Documents</p>
+          <p className="Disclaimer"><h4>Disclaimer: A Bot only operates based on the provided Documents </h4></p>
         </div>
 
       </div>

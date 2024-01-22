@@ -1,8 +1,10 @@
+
+
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  background-color: #B9D9EB;
+  justify-content: left;
+  background-color: #068bd8;
   position: sticky;
   top: 0;
   height: 100px;
@@ -30,6 +32,7 @@
 .middleContent {
   height: 64vh;
   overflow-y: scroll;
+  
 }
 
 
@@ -39,6 +42,7 @@
   max-height: 100vh;
   max-width: 100%;
   margin: 0 auto;
+  
   /* padding: 2rem; */
   /* text-align: center; */
 }
@@ -51,10 +55,12 @@
 } */
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
+  background-color: #055888;
 }
 
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+  background-color: #B9D9EB;
 }
 
 @keyframes logo-spin {
@@ -78,7 +84,7 @@
 }
 
 .read-the-docs {
-  color: white;
+  color: rgb(15, 184, 203);
 }
 
 
@@ -91,6 +97,7 @@
 
 .Body {
   height: 55vh;
+  background-color: rgb(0, 106, 255);
 }
 
 .displayInput {
@@ -99,7 +106,7 @@
   justify-content: flex-end;
   height: 60vh;
   align-items: center;
-  background-color: rgba(247, 247, 247, 255);
+  background-color: blue;
   position: fixed;
   bottom: 40px;
 
@@ -114,25 +121,12 @@
   height: 40px;
   width: 1000px;
   border-radius: 8px;
-  background-color: #C0C0C0;
+  background-color: #1595da;
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 button {
 
@@ -200,15 +194,15 @@ p {
   height: 200px;
   padding: 20px;
   border-radius: 10px;
-  border: 2px dashed #555;
-  color: #444;
+  border: 2px dashed #6e1fed;
+  color:#6e1fed;
   cursor: pointer;
   transition: background .2s ease-in-out, border .2s ease-in-out;
 }
 
 .drop-container:hover {
-  background: #eee;
-  border-color: #111;
+  background: #0b0fed;
+  border-color: #14e293;
 }
 
 .drop-container:hover .drop-title {

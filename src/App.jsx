@@ -7,6 +7,7 @@ import zoomMinus from './components/assets/zoom_minus.jpg';
 import lion from './components/assets/lion.png'
 import middlelogo from './components/assets/middlelogo.png'
 import police from './components/assets/police.png'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 

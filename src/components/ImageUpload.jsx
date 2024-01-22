@@ -1,5 +1,6 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import upload_button from './assets/upload_button.png'
+
 function ImageUpload() {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
   const [uploadedImage, setUploadedImage] = useState(null);

@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import clipboardBeforeImage from './assets/clipboard(before).png';
 import clipboardAfterImage from './assets/clipboard(afer).png';
 import './styles/Button.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 function Button(props) {
   const [fill1, setFill1] = useState(false);
   const [fill2, setFill2] = useState(false);
